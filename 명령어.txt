@@ -1,0 +1,6 @@
+npm init -y
+npm next react reaxt-dom
+npm i styled-components tailwindcss autoprefixer
+
+차크라
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
