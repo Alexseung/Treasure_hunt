@@ -514,6 +514,9 @@ video {
 .mt-20 {
   margin-top: 5rem;
 }
+.mr-3 {
+  margin-right: 0.75rem;
+}
 .flex {
   display: flex;
 }
@@ -567,6 +570,10 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .font-bold {
   font-weight: 700;

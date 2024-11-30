@@ -12,7 +12,7 @@ export default function RootLayout({children}: {children: ReactNode}) {
   return (
     <html lang='en'>
       <body className='mt-20'>
-        <header className='font-bold text-3xl text-center text-red-500'>
+        <header className='font-bold text-5xl text-center text-red-500'>
           Treasure Hunt
         </header>
         {children} {/* 여기에 자식 페이지들이 렌더링됨 */}
