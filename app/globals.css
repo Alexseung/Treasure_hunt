@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles/globals.css 또는 tailwind.config.cjs의 @layer로 추가 */
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-4px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  75% {
+    transform: translateX(-4px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* 버튼 애니메이션 적용 */
+.shake {
+  animation: shake 0.5s ease-in-out infinite;
+}
